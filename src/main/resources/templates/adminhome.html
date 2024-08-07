@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="adminhome.css">
+<br><br>
+
+<br><br>
+</head>
+<body>
+<div class="container">
+   
+ <h2>Welcome admin</h2>
+    <form action="viewuser">
+        <input type="submit" value="View Users">
+    </form>
+    <br/><br/>
+
+    <form action="map-addmovie">
+        <input type="submit" value="Add Movie"/>
+    </form>
+    <br/><br/>
+
+    <a href="viewmovie" class="link-button">
+        <input type="submit" value="View Movies"/>
+    </a>
+    <br/><br/>
+    <form action="map-updateuser">
+        <input type="submit" value="Update User"/>
+    </form><br/><br/>
+    <form action="deleteuser">
+        <input type="submit" value="Delete Users"/>
+    </form><br/><br/>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.querySelector('body').style.height = window.innerHeight + 'px';
+    });
+</script>
+</body>
+</html>

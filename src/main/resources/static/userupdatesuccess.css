@@ -1,0 +1,31 @@
+@charset "ISO-8859-1";
+
+        body {
+            font-family: Arial, sans-serif; /* Use a readable font */
+            background-color: #F5DAD2; /* Light gray background */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            text-align: center;
+            color: #333; /* Darker text color for better contrast */
+            position: relative; /* To position the button absolutely */
+        }
+
+        h2 {
+            background-color: #BCEAD5; /* Light green background for the message */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Light shadow */
+            margin: 0;
+            font-size: 24px; /* Larger font size for the message */
+        }
+
+        .container {
+            position: absolute;
+            top: 20px; /* Position it a bit below the top of the screen */
+            left: 20px; /* Position it from the left side */
+        }
+       
+    

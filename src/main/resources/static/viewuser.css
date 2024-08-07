@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: thistle;
+    }
+    table {
+        width: 80%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background-color: white;
+    }
+    th, td {
+        padding: 10px;
+        text-align: left;
+        border: 1px solid black;
+    }
+    th {
+        background-color: rgb(255, 132, 0);
+    }
+    tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    tr:hover {
+        background-color: #f1f1f1;
+    }
+    h2 {	
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+    }

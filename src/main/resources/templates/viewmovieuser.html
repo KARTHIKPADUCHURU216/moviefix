@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>All Movies</title>
+    <link rel="stylesheet" href="viewmovieuser.css">
+    <br><br>
+
+   <br><br>
+</head>
+<body>
+   
+    <br><br>
+    <div class="movie-grid">
+     <h2>All Movies</h2>
+        <div th:each="movie : ${movie}" class="movie-item">
+            <h3 th:text="${movie.movieName}">Movie Name</h3>
+            <div th:utext="${movie.movieLink}"></div>
+        </div>
+    </div>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.querySelector('body').style.height = window.innerHeight + 'px';
+        });
+    </script>
+</body>
+</html>

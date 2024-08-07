@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<table border="1">
+		<tr>
+			<th>Name</th>
+			<th>Email id</th>
+			<th>Phone Number</th>
+			<th>Gender</th>
+			<th>Address</th>
+			<th></th>
+		</tr>	
+		<tr th:each="users:${users}">
+			<td th:text="${users.name}"></td>
+			<td th:text="${users.emailId}"></td>
+			<td th:text="${users.phoneNo}"></td>
+			<td th:text="${users.gender}"></td>
+			<td th:text="${users.address}"></td>
+			
+		</tr>
+	</table>
+	
+</body>
+</html>

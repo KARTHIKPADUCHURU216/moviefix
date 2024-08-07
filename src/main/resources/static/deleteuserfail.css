@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #b17070;
+			text-align: center;
+		}
+		h2 {
+			color:black;
+			margin-bottom: 20px;
+		}
+		a {
+			text-decoration: none;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			padding: 10px 20px;
+			border: none;
+			border-radius: 5px;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color:blue;
+		}
